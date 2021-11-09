@@ -10,8 +10,9 @@ function ProfilePages() {
   const [data, setData] = useState('')
   const [count, setCount] = useState(0)
   const username =
-    count % 4 === 0 ? 'yaffalhakim1' : count %5===0 ? 'farrelfay' : count % 4 === 1 ? 'farizan17' : 'ElmarLeonard9' 
-   
+  
+    count % 4 === 0 ? 'yaffalhakim1' : count %4===1 ? 'farrelfay' : count % 4=== 2 ? 'farizan17' : 'ElmarLeonard9' 
+  
     
   const max = username.length
 
